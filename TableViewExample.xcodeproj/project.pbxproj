@@ -12,6 +12,7 @@
 		9CE6065F202ACD5A0040C7D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE6065D202ACD5A0040C7D6 /* Main.storyboard */; };
 		9CE60661202ACD5A0040C7D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CE60660202ACD5A0040C7D6 /* Assets.xcassets */; };
 		9CE60664202ACD5A0040C7D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE60662202ACD5A0040C7D6 /* LaunchScreen.storyboard */; };
+		9CE6066C202AD84A0040C7D6 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE6066B202AD84A0040C7D6 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9CE60660202ACD5A0040C7D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CE60663202ACD5A0040C7D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CE60665202ACD5A0040C7D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CE6066B202AD84A0040C7D6 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				9CE60659202ACD5A0040C7D6 /* AppDelegate.swift */,
 				9CE6065B202ACD5A0040C7D6 /* ViewController.swift */,
+				9CE6066B202AD84A0040C7D6 /* CustomTableViewCell.swift */,
 				9CE6065D202ACD5A0040C7D6 /* Main.storyboard */,
 				9CE60660202ACD5A0040C7D6 /* Assets.xcassets */,
 				9CE60662202ACD5A0040C7D6 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CE6066C202AD84A0040C7D6 /* CustomTableViewCell.swift in Sources */,
 				9CE6065C202ACD5A0040C7D6 /* ViewController.swift in Sources */,
 				9CE6065A202ACD5A0040C7D6 /* AppDelegate.swift in Sources */,
 			);
@@ -194,6 +198,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
+				"DEBUG_ACTIVITY_MODE[sdk=iphonesimulator*]" = disable;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -251,6 +257,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
